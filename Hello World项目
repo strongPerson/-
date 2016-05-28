@@ -1,0 +1,7 @@
+一、安卓开发四大组件：activity（活动）、service（服务）、broadcast reciver（广播接收器）、content provider（内容提供器）
+二、创建Hello World项目：这里比较简单，直接创建一个新项目，然后连接手机运行，就可以看到效果。
+三、目录分析：
+src：放置的是所有java代码的地方，和普通java目录下的src是完全一样的；
+libs：如果使用了第三方jar包，就需要把这些jar包放在libs目录下，放在这个目录下的jar包会自动添加到构建路径中去；
+res：在项目中所有使用到的图片、布局、字符串资源都在这个文件夹下；图片放在drawable文件夹下，布局放在layout下，字符串放在values下；
+AndroidManifest：是整个安卓项目的配置文件，在程序中定义的四大组件都需要在这里注册；
